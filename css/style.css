@@ -26,11 +26,11 @@ img {
 .container-carousel {
     max-width: 1200px;
     margin: 0 auto;
+    position: relative;
 }
 
 .carousel {
     height: 50vh;
-    position: relative;
 }
 
 .carousell-item {
@@ -49,5 +49,14 @@ img {
 
 .container-navigation {
     display: flex;
+    width: 100%;
     justify-content: space-between;
+    position: absolute;
+    top: 50%;
+    z-index: 4;
+    transform: translateY(-50%);
+}
+
+.container-navigation button {
+    font-size: 2rem;
 }
