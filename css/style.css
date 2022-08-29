@@ -1,0 +1,53 @@
+/*** GENERICS ***/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height: 1.2rem;
+}
+
+img {
+    width: 100%;
+}
+
+
+/*** UTILITIES ***/
+
+
+
+/*** CONTENT ***/
+
+.container-carousel {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.carousel {
+    height: 50vh;
+    position: relative;
+}
+
+.carousell-item {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.carousell-item.active {
+    display: inline-block;
+}
+
+.container-navigation {
+    display: flex;
+    justify-content: space-between;
+}
