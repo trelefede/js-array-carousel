@@ -33,7 +33,7 @@ img {
     height: 50vh;
 }
 
-.carousell-item {
+.carousel-item {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -43,7 +43,7 @@ img {
     display: none;
 }
 
-.carousell-item.active {
+.carousel-item.active {
     display: inline-block;
 }
 
